@@ -1,0 +1,11 @@
+@import '../../mq';
+
+@media #{$phoneLandscape} {
+    @import '../mobile';
+
+    & {
+      .sale_projects-box {
+     width: 120%;
+   }
+    }
+}

@@ -1,0 +1,346 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  .main,
+  header,
+  section,
+  footer {
+    overflow: hidden;
+  }
+  .show:after {
+    display: none;
+  }
+  .head {
+    min-height: 950px;
+    &:before {
+      background: url('../images/lines_p.png') repeat-y center;
+      width: 409px;
+    }
+  }
+  .main {
+    &:before {
+      background: url('../images/bg-linesp.png') repeat-y center;
+      width: 406px;
+    }
+  }
+  .head-hgroup h1 {
+    font-size: 2.8rem;
+    letter-spacing: -0.021rem;
+    line-height: 1.2;
+  }
+  .order-btn {
+    letter-spacing: -0.068rem;
+    text-align: center;
+  }
+  .israel_questions-item .title {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    width: 768px;
+  }
+  .israel_questions-item p {
+    margin-top: 70px;
+  }
+  .israel_questions-img img {
+    margin-top: 140px;
+  }
+  .israel_questions-img p {
+    top: 70px;
+  }
+  .profit-item .title {
+    line-height: 1.2;
+  }
+  .profit-item p {
+    max-width: 270px;
+  }
+  .why_ukraine-title {
+    position: static;
+    text-align: left;
+    br {
+      display: none;
+
+    }
+  }
+  .why_ukraine-img {
+    float: right;
+    width: 50%;
+    margin: 0;
+  }
+  .why_ukraine-item {
+    width: 50%;
+    float: left;
+    max-width: 295px;
+  }
+  .why_ukraine-item.last {
+    width: 100%;
+    clear: both;
+    max-width: 100%;
+    br {
+      display: none;
+    }
+    p {
+      max-width: 100%;
+    }
+  }
+  .profit:before,
+  .factors .container:after, .about .container:after, .f_bottom:before {
+    background: url('../images/lines_p.png') repeat-y center;
+    width: 409px;
+  }
+  .factors-hgroup .title {
+    font-size: 36px;
+    letter-spacing: -2px;
+    br {
+      display: none;
+    }
+  }
+  .factors-item {
+    width: 100%;
+    max-width: 255px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    br {
+      display: none;
+    }
+  }
+  .invest {
+    padding-top: 360px;
+    text-align: center;
+    padding-bottom: 160px;
+  }
+  .invest-img {
+    max-width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .invest-item {
+    margin-top: 65px;
+  }
+  .invest-content {
+    text-align: left;
+    .item {
+      float: none;
+    }
+  }
+  .invest-content .item.active {
+    width: 100%;
+  }
+  .invest-bottom_info {
+    text-align: center;
+  }
+  .calculate-item {
+    padding: 75px 50px;
+  }
+  .calculate_tab-content .item {
+    margin-bottom: 50px;
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    &:first-child {
+      margin-right: 1%;
+    }
+    &:last-child {
+      width: 100%;
+      display: block;
+      .calculate-profit {
+        width: 100%;
+      }
+    }
+  }
+  .calculate-profit {
+    margin-top: 15px;
+    width: 315px;
+  }
+  .calculate-form {
+    span {
+      input {
+        width: calc(100% - 30px);
+        margin-right: 30px;
+        margin-bottom: 24px;
+    max-width: 344px;
+        
+      }
+      &:nth-child(2) {
+        input {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .calculate-form .submit {
+    vertical-align: top;
+    width: calc(50% - 30px);
+    max-width: 344px;
+    box-shadow: -2px 25px 30px rgba(0, 0, 0, 0.3);
+
+  }
+  .tablet-width {
+    max-width: 650px;
+    margin: 0 auto 60px;
+    br {
+      display: none;
+    }
+  }
+  .invest_a-list li span {
+    display: inline;
+  }
+  .invest_a-item .title {
+    margin-bottom: 30px;
+  }
+  .invest_a-item_right {
+    background-size: cover;
+  }
+  .invest_a-item_right .title {
+    font-size: 35px;
+    max-width: 300px;
+  }
+  .services-item p {
+    max-width: 100%;
+  }
+  .invest_a-services {
+    max-width: 610px;
+    margin: 160px auto 0;
+  }
+  .invest_a-services .row:last-child .services-item {
+        margin-bottom: 3.625rem;
+  }
+  .about .container:before, .about .container .before-img {
+    display: none;
+  }
+  .about .container {
+    background-color: #2f2e2e;
+    background-image: linear-gradient(37deg, #2a2d31 0%, #574028 100%);
+    .row {
+      max-width: 505px;
+      margin: 0 auto;
+    }
+    .items {
+      .col {
+            -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+      }
+    }
+  }
+  .sale_projects-info {
+    font-size: 14px;
+  }
+  .sale_projects-title {
+    font-size: 35px;
+    letter-spacing: -2px;
+  }
+  .property-title {
+    max-width: 530px;
+  }
+  .property-img {
+    max-width: 100%;
+    img {
+      width: 100%;
+      max-width: inherit;
+    }
+  }
+  .property-content {
+    margin-top: 60px;
+    >div {
+      display: inline-block;
+      vertical-align: top;
+      &:first-child {
+        margin-right: 60px;
+      }
+      &:last-child {
+        margin-top: 38px;
+        max-width: 260px;
+      }
+    }
+  }
+  .property {
+    max-width: 650px;
+    margin: 0 auto;
+    padding-bottom: 160px;
+  }
+  .f_bottom {
+    background: url('../images/scsa.png') no-repeat center;
+    padding: 160px 0;
+    min-height: 1010px;
+    .f_bottom-title {
+      font-size: 35px;
+    }
+  }
+  .f_bottom-left {
+    max-width: 270px;
+    margin-left: auto;
+    br {
+      display: none;
+    }
+  }
+  .f_bottom-item {
+    margin-top: 90px;
+  }
+  .footer {
+    .col {
+          -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+      min-height: 36px;
+    }
+    .address, .phone {
+      margin-top: 15px;
+    }
+  }
+  .md-1 {
+     -ms-flex-order: 1;
+     order: 1;
+   }
+
+   .md-2 {
+     -ms-flex-order: 2;
+     order: 2;
+   }
+
+   .md-3 {
+     -ms-flex-order: 3;
+     order: 3;
+   }
+
+   .md-4 {
+     -ms-flex-order: 4;
+     order: 4;
+   }
+.success {
+    background: url(../images/s.png) no-repeat 40% center;
+  background-size: cover;
+}
+  .invest_a {
+    padding-top: 100px;
+  }
+  .tablet-width {
+    margin-bottom: 100px;
+  }
+  .why_ukraine {
+    padding: 80px 0 60px;
+  }
+  .about .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    min-height: 100%;
+  }
+  .about-title {
+    margin-bottom: 40px;
+  }
+  .property-content .property-item .property-summ span {
+    display: block;
+  }
+  .property-content .property-item .property-summ {
+    line-height: 1;
+    margin-top: 10px;
+  }
+  .invest-content .item .line {
+     display: none;
+   }
+  .field {
+    max-width: 50%;
+    float: left;
+    width: 100%;
+  }
+}

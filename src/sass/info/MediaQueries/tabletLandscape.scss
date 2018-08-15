@@ -1,0 +1,81 @@
+@import '../../mq';
+
+@media #{$tabletLandscape} {
+    @import '../desktop';
+    .main,
+  header,
+  section,
+  footer {
+    overflow: hidden;
+  }
+  .show:after {
+    display: none;
+  }
+  .israel_questions-item .title {
+    font-size: 2rem;
+  }
+  .israel_questions-img {
+    padding-top: 69px;
+  }
+  .israel_questions-item p {
+    max-width: 23rem;
+  }
+  .why_ukraine-title {
+    left: 12%;
+    br {
+      display: none;
+    }
+  }
+  .why_ukraine-img {
+    max-width: 425px;
+    padding-top: 145px;
+    img {
+      width: 500px;
+    }
+  }
+  .why_ukraine-item {
+    width: 447px;
+  }
+  .factors-hgroup {
+    max-width: 420px;
+    br {
+      display: none;
+    }
+    .title {
+      font-size: 35px;
+    }
+  }
+  .invest-img {
+    min-height: 427px;
+    img {
+      width: inherit;
+      height: 100%;
+    }
+  }
+  .calculate-item {
+    padding-left: 80px;
+    margin-top: 50px;
+  }
+  .calculate-form input {
+    width: 212px;
+  }
+  .invest_a-item .title {
+    font-size: 23px;
+    margin-bottom: 40px;
+  }
+  .invest_a-item_right {
+    background: url(../images/5d98.png) no-repeat left center;
+}
+  .property-img {
+    min-height: 400px;
+    max-width: 587px;
+    overflow: hidden;
+    img {
+      height: 100%;
+      width: inherit !important;
+    }
+  }
+  .ml-autop {
+    margin-left: auto;
+  }
+}
